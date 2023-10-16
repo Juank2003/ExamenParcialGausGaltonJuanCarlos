@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba4df79-683e-441b-8791-700a22c360e2" name="Changes" comment="Resto de clases">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="bba4df79-683e-441b-8791-700a22c360e2" name="Changes" comment="Compila">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AssemblyLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AssemblyLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FactorySimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FactorySimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductionTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Visualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Visualizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697454755951</updated>
-      <workItem from="1697454756978" duration="438000" />
+      <workItem from="1697454756978" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="CreacionClases">
       <option name="closed" value="true" />
@@ -84,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697454940082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Compila">
+      <option name="closed" value="true" />
+      <created>1697455244496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697455244496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
     <MESSAGE value="CreacionClases" />
     <MESSAGE value="CreacionClasesFactorySimulatorAssemblilyne" />
     <MESSAGE value="Resto de clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resto de clases" />
+    <MESSAGE value="Compila" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compila" />
   </component>
 </project>

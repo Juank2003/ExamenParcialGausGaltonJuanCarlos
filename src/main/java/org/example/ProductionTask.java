@@ -36,10 +36,28 @@ public class ProductionTask implements Runnable {
 
                 // Agrega una pausa para simular la producción
                 Thread.sleep(500); // Ajusta el tiempo según tus necesidades
+
+                // Simula el ensamblaje de la máquina
+                assembleMachine(component);
+
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
         }
+    }
+
+    //Esto es un metodo de Assemblilyne
+    private void assembleMachine(int component) {
+        // Simula el ensamblaje de la máquina
+        System.out.println("Ensamblaje de componente " + component + " en " + Thread.currentThread().getName());
+        // Implementa tu lógica de ensamblaje aquí
+        // Por ejemplo, puedes simular el tiempo que lleva el ensamblaje con una pausa.
+        try {
+            Thread.sleep(100); // Simula un tiempo de ensamblaje de 100 milisegundos
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("Ensamblaje de componente " + component + " completado en " + Thread.currentThread().getName());
     }
 
     private int produceComponent() {
@@ -54,4 +72,5 @@ public class ProductionTask implements Runnable {
         // Asegúrate de manejar adecuadamente los índices y límites del array.
     }
 }
+
 

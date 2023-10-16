@@ -4,8 +4,8 @@ package org.example;
 
 import java.util.concurrent.BlockingQueue;
 class AssemblyLine implements Runnable {
-    private BlockingQueue<Integer> buffer;
-    private Visualizer visualizer;
+    public BlockingQueue<Integer> buffer;
+    public Visualizer visualizer;
 
     public AssemblyLine(BlockingQueue<Integer> buffer, Visualizer visualizer) {
         this.buffer = buffer;
